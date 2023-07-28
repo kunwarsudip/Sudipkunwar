@@ -1,0 +1,90 @@
+<!-- 作成者：朱社佳　クラス：PI11A283 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transtional.dtd">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="content-style-type" content="text/css" />
+        <title>Sudip Kunwar Official Website | Nepali Movie Director</title>
+        <link rel="stylesheet" type="text/css" href="./css/common.css">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+    </head>
+
+    <body>
+        <!-- ページトップへのボタン -->
+        <p class="top"><a class="button top" href="#header">TOP↑</a></p>
+
+        <!-- ヘッダー部分 -->
+        <div id="header">
+            <!-- <h1 id="logo">Sudip Kunwar</h1>  -->
+			<!-- 印刷体の文字より、Microsoft Surfaceのペンを利用して簡単な手書きロゴを作ってみた -->
+            <img src="./images/logo.png" alt="logo" id="logo">
+            <ul class="menu">
+                 <li class="menu"><a class="button" href="./index.html" id="highlight">Home</a></li>
+                <li class="menu"><a class="button" href="./disco.html">List of works</a></li>
+                
+                <li class="menu"><a class="button" href="./news.html">News</a></li>
+           
+                <li class="menu"><a class="button" href="./link.html">Link</a></li>
+            </ul>
+        </div>
+
+        <!-- タイトル画面 -->
+        <div class="part1">
+            <h1>　Hi, I'm Sudip Kunwar</h1><!-- 符号付きだと文字左寄りに見えるので最初に一文字のスペースを入れた -->
+            <hr class="part1">
+            <p class="part1">Sudip Kunwar is a highly skilled and accomplished Chief Assistant Director with an extensive portfolio of work in the film industry. <br>With a remarkable career spanning 54 movies, Sudip has established himself as a trusted and integral part of the filmmaking process. <br> His passion for storytelling and dedication to his craft have made him an invaluable asset on various successful film projects.</p>
+
+			<!-- これは下の画面に移行するページ内リンクのボタン
+			　　　三角形矢印のある四角い部分だけ押す機能付けたいので、棒と別々の画像にカットした
+			　　　また、画像を縦並びにするためblockに表示したけど、なぜかウィンドウ枠の横幅全体がクリックできてしまうので、pタグをつけた -->
+            <p><a href="#intro"><img class="jump" src="./images/jump1x.png" alt="arrow"></a></p>
+            <p><img class="jump" src="./images/jump2x_1.png" alt="arrow"></p>
+        </div>
+
+        <!-- 簡単な紹介画面 -->
+        <div class="part2" id="intro">
+        	<!-- 上の画像の続き、ページ内リンクのボタンが二つの画面とも半々占めさせたいので上下のボックスレイアウトdivに分かれて入れることにした -->
+            <p><img class="jump" src="./images/jump2x_2.png" alt="arrow"></p>
+            <h2>Career</h2>
+            <hr class="part2">
+            <p class="part2">Sudip Kunwar began his journey in the film industry as a chief assistant director for the blockbuster movie "Nai Nabhannu La," <br> and he continued to work on all subsequent movies in the popular series. This early experience allowed him to <br> hone his skills and gain valuable insights into the intricacies of filmmaking.</p>
+            <div id="recent">
+                <div id="col1">
+                    <h3>Movie List</h3>
+                    <p class="part2">PRADESHI<br>NAI NABHANNU LA</p>
+                                      <p class="part2">CHHAKKA PANJA 3<br>HELLO JINGADI<br>SHREE</p>
+                </div>
+                <!-- <img src="./images/line.jpg" alt="line" class="line"> -->
+                <div id="col2">
+                    <h3>Song List</h3>
+                    <p class="part2">MAYALE ISHARA<br>MAYURKO BHALELE</p>
+                                       <p class="part2">MAYALU JAHILE RISAUNE<br>DUKHANE MUTU <br> BATAULI (Up Coming)</p>
+                </div>
+            </div>
+            <p><a href="#pv"><img class="jump" src="./images/jump1x.png" alt="arrow"></a></p>
+            <p><img class="jump" src="./images/jump2x_1.png" alt="arrow"></p>
+        </div>
+
+        <!-- 最新PV画面 -->
+        <div class="part3" id="pv">
+            <p><img class="jump" src="./images/jump2x_2.png" alt="arrow"></p>
+            <h2>Latest Films</h2>
+            <hr class="part3">
+            <div id="left">
+                <iframe width="450" height="253" src="https://www.youtube.com/embed/F9fY5tCg2vc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <p class="part3">Chhakka Panja 3 (Full Movie) Deepak, Deepika, Priyanka, Kedar, Jeetu, Buddhi | New Nepali Movie</p>
+            </div>
+            <div id="right">
+
+                <iframe width="450" height="253" src="https://www.youtube.com/embed/JwzGEpXiFII" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <p class="part3">Nai Nabhannu La 5 || FULL LENGTH MOVIE-2018 | Swastima Khadka | Abhishek Nepal | Anubhav Regmi</p>
+            </div>
+        </div>
+
+        <!-- フッター部分 -->
+        <div id="footer">
+            <!-- <hr> -->
+            <p id="copyright">Copyright © 2023 Yogendra.</p>
+        </div>
+    </body>
+</html>
